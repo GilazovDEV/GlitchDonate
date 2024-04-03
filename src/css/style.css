@@ -41,26 +41,26 @@ body {
 
 /* stata */
 .nav-state {
-  height: 30px;
+  height: 25px;
   margin-bottom: 20px;
   background-color: #fff;
 }
 
 .nav-state-block {
-  padding-top: 3px;
+  padding-top: 2px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .n-block {
   font-family: "HKGroteskRegular";
-  font-size: 14px;
+  font-size: 13px;
   color: #838383;
 }
 
 .fon {
   font-family: "HKGroteskRegular";
-  font-size: 14px;
+  font-size: 13px;
   color: #838383;
 }
 
@@ -123,6 +123,7 @@ main {
 }
 
 .main-block {
+  padding: 20px;
   border-radius: 15px;
   background-color: #fff;
 }
@@ -306,9 +307,15 @@ main {
 
 /* faq */
 
+.faq-title {
+  font-family: "HKGroteskBold";
+  font-size: 38px;
+  color: #1e1e1e;
+}
+
 .faq-main-block {
   margin-top: 20px;
-  padding: 50px;
+  padding: 20px;
   border-radius: 15px;
   background-color: #fff;
 }
@@ -318,6 +325,46 @@ main {
 
 .img-faq {
   width: 400px;
+}
+
+.accordion {
+  border: none;
+}
+
+.accordion-body {
+  padding: 15px 1px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  border-top: 2px solid #ececec;
+  border-bottom: 2px solid #ececec;
+}
+
+.accordion-button {
+  font-family: "HKGroteskBold";
+  font-size: 20px;
+  color: #1e1e1e;
+  padding: 15px 1px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #8868d0;
+}
+
+.accordion-body p {
+  font-family: "HKGroteskMedium";
+  font-size: 18px;
+  color: #838383;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
 }
 
 /* why? */
@@ -518,4 +565,32 @@ footer {
 .btn-reg:hover {
   color: #b561e8;
   border: 1px solid #b561e8;
+}
+
+/* adaptation */
+
+@media (max-width: 1290px) {
+}
+
+@media (max-width: 992px) {
+  .img-block {
+    display: none;
+  }
+
+  .img-faq-block {
+    display: none;
+  }
+
+  .infblcimg {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+}
+
+@media (max-width: 481px) {
+}
+
+@media (max-width: 0px) {
 }
