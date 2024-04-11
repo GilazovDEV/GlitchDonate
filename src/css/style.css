@@ -639,9 +639,70 @@ footer {
 @media (max-width: 0px) {
 }
 
-
-
 /* about page */
 
+.about-block {
+  background-color: #fff;
+  border-radius: 15px;
+  padding-left: 70px;
+  padding-left: 70px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.abt-tit {
+}
+
+.a-tit {
+  font-family: "HKGroteskBold";
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.large {
+  font-weight: bold;
+}
+
+.abt-links {
+}
+
+.abt-link {
+  font-family: "HKGroteskMedium";
+  text-transform: uppercase;
+  color: #686868;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about-us {
+  margin-bottom: 20px;
+}
+
+.about-name-block {
+}
+
+.about-name {
+}
+
+.a-name {
+  font-family: "HKGroteskBold";
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-family: "HKGroteskMedium";
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.a-txt {
+}
 
 /* faq page */
