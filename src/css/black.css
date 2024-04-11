@@ -36,7 +36,7 @@ body {
   font-family: "HKGroteskMedium";
   margin: 0px;
   padding: 0px;
-  background-color: #f4f4f4;
+  background-color: #000000;
 }
 
 .checkbox {
@@ -83,11 +83,12 @@ body {
 .checkbox:active ~ .slider::before {
   transform: translate(0);
 }
+
 /* stata */
 .nav-state {
   height: 25px;
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .nav-state-block {
@@ -112,7 +113,7 @@ body {
 
 .navbar {
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .navbar-collapse {
@@ -127,7 +128,7 @@ body {
 }
 
 .black {
-  color: #000;
+  color: #ececec;
 }
 
 .nav-item {
@@ -137,15 +138,16 @@ body {
 .nav-link {
   font-family: "HKGroteskMedium";
   font-size: 20px;
-  color: #787878;
+  color: #ececec;
 }
 
 .btn-login {
   font-family: "HKGroteskMedium";
   font-style: 20px;
   border-radius: 10px;
-  border: 1px solid #121212;
+  border: 1px solid #ececec;
   margin-right: 10px;
+  color: #ececec;
 }
 
 .btn-reg {
@@ -169,7 +171,7 @@ main {
 .main-block {
   padding: 20px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .title-box {
@@ -183,7 +185,7 @@ main {
 
 .title h1 {
   font-family: "HKGroteskBold";
-  color: #000;
+  color: #ececec;
   margin: 0px;
   padding: 0px;
 }
@@ -201,7 +203,7 @@ main {
 .tit-txt {
   font-family: "Montserrat";
   font-weight: 500;
-  color: #000;
+  color: #ececec;
   margin: 0px;
   padding: 0px;
 }
@@ -239,7 +241,7 @@ main {
   padding: 20px;
   margin-top: 20px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .inter-title {
@@ -251,7 +253,7 @@ main {
   font-family: "HKGroteskBold";
   font-size: 28px;
   text-align: center;
-  color: #000;
+  color: #ececec;
   margin: 0px;
   padding: 0px;
 }
@@ -278,7 +280,7 @@ main {
 .int-col-tit {
   font-family: "HKGroteskBold";
   font-size: 24px;
-  color: #1e1e1e;
+  color: #ececec;
   margin: 0px;
   padding: 0px;
 }
@@ -296,7 +298,7 @@ main {
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #ececec;
   margin: 0px;
   padding: 0px;
 }
@@ -315,7 +317,7 @@ main {
   margin-top: 20px;
   padding: 25px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .partner-block-text {
@@ -327,7 +329,7 @@ main {
 .partner-tit {
   font-family: "HKGroteskBold";
   font-size: 28px;
-  color: #1e1e1e;
+  color: #ececec;
   padding: 0px;
   margin: 0px;
 }
@@ -354,14 +356,14 @@ main {
 .faq-title {
   font-family: "HKGroteskBold";
   font-size: 38px;
-  color: #1e1e1e;
+  color: #ececec;
 }
 
 .faq-main-block {
   margin-top: 20px;
   padding: 20px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .img-faq-block {
@@ -376,6 +378,7 @@ main {
 }
 
 .accordion-body {
+  background-color: #1e1e1e;
   padding: 15px 1px;
 }
 
@@ -392,12 +395,13 @@ main {
 .accordion-button {
   font-family: "HKGroteskBold";
   font-size: 20px;
-  color: #1e1e1e;
+  background-color: #1e1e1e;
+  color: #ececec;
   padding: 15px 1px;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #fff;
+  background-color: #1e1e1e;
   color: #8868d0;
 }
 
@@ -417,7 +421,7 @@ main {
   margin-top: 20px;
   padding: 25px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .faq {
@@ -427,7 +431,7 @@ main {
 .faq-txt {
   font-family: "HKGroteskBold";
   font-size: 28px;
-  color: #1e1e1e;
+  color: #ececec;
   padding: 0px;
   margin: 0px;
 }
@@ -438,7 +442,7 @@ main {
   margin-top: 20px;
   padding: 70px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .info-blok-img {
@@ -484,7 +488,7 @@ main {
 .inf-tit {
   font-family: "HKGroteskBold";
   font-size: 24px;
-  color: #1e1e1e;
+  color: #ececec;
   padding: 0px;
   margin: 0px;
 }
@@ -497,7 +501,7 @@ main {
 .inf-txt {
   font-family: "HKGroteskBold";
   font-size: 20px;
-  color: #1e1e1e;
+  color: #ececec;
   padding: 0px;
   margin: 0px;
 }
@@ -527,7 +531,7 @@ footer {
 .footer {
   padding: 20px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .footer-block {
@@ -539,7 +543,7 @@ footer {
 .f-tit {
   font-family: "HKGroteskBold";
   font-size: 28px;
-  color: #1e1e1e;
+  color: #ececec;
   padding: 0px;
   margin: 0px;
 }
@@ -555,10 +559,15 @@ footer {
 
 .footer-form {
   margin-top: 10px;
-  border: #121212 1px solid;
+  border: #ececec 1px solid;
+  color: #ececec;
   padding: 5px;
   border-radius: 8px;
   width: 200px;
+}
+
+hr {
+  color: #ececec;
 }
 
 /* footer-copy */
@@ -638,10 +647,3 @@ footer {
 
 @media (max-width: 0px) {
 }
-
-
-
-/* about page */
-
-
-/* faq page */
