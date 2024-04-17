@@ -93,7 +93,7 @@ body {
 .nav-state-block {
   padding-top: 2px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .n-block {
@@ -121,6 +121,7 @@ body {
 }
 
 .navbar-brand {
+  margin-left: 50px;
   font-family: "HKGroteskBold";
   font-size: 28px;
   color: #b561e8;
@@ -173,6 +174,7 @@ main {
 }
 
 .title-box {
+  padding-left: 150px;
 }
 
 .title {
@@ -614,6 +616,14 @@ footer {
 /* adaptation */
 
 @media (max-width: 1290px) {
+  .infblcimg {
+    width: 300px;
+    height: 200px;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -628,12 +638,59 @@ footer {
   .infblcimg {
     display: none;
   }
+
+  .sss {
+    display: none;
+  }
+
+  .title-box {
+    padding-left: 0px;
+
+    padding: 50px;
+  }
 }
 
 @media (max-width: 769px) {
+  .title-box {
+    padding-left: 0px;
+
+    padding: 20px;
+  }
+
+  .info-block-main {
+    padding: 40px;
+  }
 }
 
 @media (max-width: 481px) {
+  .navbar-brand {
+    margin-left: 12px;
+  }
+
+  .title-box {
+    padding-left: 0px;
+    padding: 10px;
+  }
+
+  .info-block-main {
+    padding: 25px;
+  }
+
+  .info-container {
+    width: auto;
+    height: auto;
+  }
+
+  .inf-txt {
+  }
+
+  .n-block,
+  .nav-state-block,
+  .fon {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 @media (max-width: 0px) {
