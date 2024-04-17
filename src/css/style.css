@@ -112,6 +112,11 @@ body {
   color: #fff;
 }
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* navbar */
 
 .navbar {
@@ -120,12 +125,12 @@ body {
 }
 
 .navbar-collapse {
-  margin-left: 55px;
-  margin-right: 55px;
+  /* margin-left: 55px; */
+  /* margin-right: 55px; */
 }
 
 .navbar-brand {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   font-family: "HKGroteskBold";
   font-size: 28px;
   color: #b561e8;
@@ -136,7 +141,7 @@ body {
 }
 
 .nav-item {
-  margin-left: 55px;
+  /* margin-left: 55px; */
 }
 
 .nav-link {
@@ -163,11 +168,6 @@ body {
 }
 
 /* main */
-
-.container {
-  --bs-gutter-x: 0rem;
-  --bs-gutter-y: 0;
-}
 
 main {
   margin-top: 20px;
