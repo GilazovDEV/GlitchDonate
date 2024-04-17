@@ -164,6 +164,11 @@ body {
 
 /* main */
 
+.container {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+}
+
 main {
   margin-top: 20px;
 }
@@ -173,11 +178,13 @@ main {
 
 .main-block {
   padding: 20px;
+  margin: 0px;
   border-radius: 15px;
   background-color: #fff;
 }
 
 .title-box {
+  padding: 0px;
   padding-left: 150px;
 }
 
@@ -454,7 +461,6 @@ main {
 
 .infblcimg {
 }
-
 
 .info-container {
   width: 450px;
