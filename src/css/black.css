@@ -113,12 +113,11 @@ body {
   color: #fff;
 }
 
-
 /* navbar */
 
 .navbar {
   border-radius: 15px;
-  background-color:#1e1e1e;
+  background-color: #1e1e1e;
 }
 
 .navbar-collapse {
@@ -127,20 +126,19 @@ body {
 }
 
 .navbar-brand {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   font-family: "HKGroteskBold";
   font-size: 28px;
   color: #b561e8;
 }
 
 .black {
-  color: #000;
+  color: white;
 }
 
 .nav-item {
   margin-left: 55px;
 }
-
 
 .nav-link {
   font-family: "HKGroteskMedium";
@@ -183,7 +181,6 @@ main {
 .title-box {
   padding-left: 150px;
 }
-
 
 .title {
   margin: 0px;
