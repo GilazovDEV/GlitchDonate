@@ -627,7 +627,88 @@ hr {
 
 /* LOGIN / REGISTRATION PAGE */
 
+.login-main {
+  color: #ffff;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
+.logins {
+  padding: 120px;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+}
+
+.login-body {
+}
+
+.login-title {
+  margin: 0px;
+  text-align: center;
+}
+
+.l-tit {
+  margin: 0px;
+
+  font-size: 24px;
+  font-family: "HKGroteskBold";
+}
+
+.login-text {
+  margin: 0px;
+
+  text-align: center;
+}
+
+.l-txt {
+  margin: 0px;
+
+  font-size: 18px;
+  font-family: "HKGroteskMedium";
+}
+
+.login-inputs {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.l-input {
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  width: 350px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.login-btns {
+  margin-top: 15px;
+}
+
+.l-btn {
+  width: 350px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #b561e8;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.l-check {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  text-align: center;
+  width: 350px;
+  font-size: 14px;
+}
+
+/* END LOGIN / REGISTRATION PAGE */
 
 /* adaptation */
 
