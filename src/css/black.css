@@ -150,7 +150,8 @@ body {
   font-family: "HKGroteskMedium";
   font-style: 20px;
   border-radius: 10px;
-  border: 1px solid #121212;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   margin-right: 10px;
 }
 
@@ -710,6 +711,11 @@ hr {
 
 /* END LOGIN / REGISTRATION PAGE */
 
+/* OFERTA */
+.oferta-txt {
+}
+/* END OFERTA */
+
 /* adaptation */
 
 @media (max-width: 1290px) {
@@ -797,7 +803,7 @@ hr {
 .about-block {
   background-color: #1e1e1e;
   border-radius: 15px;
-  padding-left: 70px;
+  padding-right: 70px;
   padding-left: 70px;
   padding-top: 25px;
   padding-bottom: 25px;

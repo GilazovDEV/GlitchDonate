@@ -709,6 +709,10 @@ footer {
 
 /* END LOGIN / REGISTRATION PAGE */
 
+/* OFERTA */
+
+/* END OFERTA */
+
 /* adaptation */
 
 @media (max-width: 1290px) {
@@ -797,7 +801,7 @@ footer {
 .about-block {
   background-color: #fff;
   border-radius: 15px;
-  padding-left: 70px;
+  padding-right: 70px;
   padding-left: 70px;
   padding-top: 25px;
   padding-bottom: 25px;
