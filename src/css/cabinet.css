@@ -11,10 +11,18 @@ body {
 }
 
 .sidebar-item {
-  width: 40px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* width: 40px;
   height: 40px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 50%; */
+}
+
+.cp-img {
+  width: 35px;
 }
 
 .main-content {
@@ -32,7 +40,7 @@ body {
 }
 
 .card-icon {
-  background-color: #eee;
+  /* background-color: #eee; */
   width: 60px;
   height: 60px;
   display: flex;
