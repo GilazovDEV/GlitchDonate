@@ -43,20 +43,37 @@ body {
   overflow-y: auto;
 }
 
+.card {
+  width: 500px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.card-body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
 .card-icon {
   /* background-color: #eee; */
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  margin: 5px;
 }
 
 .card-info {
+  width: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-self: right;
+  text-align: right;
 }
 
 .card-info p {
