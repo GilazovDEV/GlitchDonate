@@ -65,7 +65,8 @@ body {
 }
 
 .left-section {
-  overflow-y: auto;
+  overflow-y: scroll;
+  height: 800px;
 }
 
 .right-section {
@@ -108,13 +109,31 @@ body {
 
 .card-info p {
   margin: 0;
-  color: #888;
 }
 
-.card-info h2 {
-  margin: 5px 0;
-  font-size: 1.5em;
-  color: #333;
+.card-text {
+  font-family: "HKGroteskBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.card-general {
+  margin: 0;
+  padding: 0px;
+  font-family: "HKGroteskMedium";
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0px;
+  font-family: "HKGroteskBold";
+  color: #000000;
+}
+
+.card-link {
+  margin-top: 15px;
 }
 
 .card-info a {
