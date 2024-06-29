@@ -73,6 +73,20 @@ body {
   overflow-y: auto;
 }
 
+.btn-tabs {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: #c2bfbf;
+}
+
+.btn-group {
+  margin-bottom: 30px;
+}
+
 .card {
   width: 500px;
   padding: 10px;
