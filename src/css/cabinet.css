@@ -108,13 +108,14 @@ body {
 }
 
 .card-text {
+  margin: 0;
+  padding: 0px;
   font-family: "HKGroteskBold";
-  font-size: 20px;
+  font-size: 24px;
   color: #000000;
 }
 
 .card-general {
-  
   margin: 0;
   padding: 0px;
   font-family: "HKGroteskMedium";
@@ -126,6 +127,7 @@ body {
   margin: 0;
   padding: 0px;
   font-family: "HKGroteskBold";
+  font-size: 40px;
   color: #000000;
 }
 
