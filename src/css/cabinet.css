@@ -1,4 +1,33 @@
+@font-face {
+  font-family: "HKGroteskBold";
+  src: url("../fonts/hkgrotesk-bold-web.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HKGroteskLight";
+  src: url("../fonts/hkgrotesk-light-web.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HKGroteskMedium";
+  src: url("../fonts/hkgrotesk-medium-web.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HKGroteskRegular";
+  src: url("../fonts/hkgrotesk-regular-web.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  padding: 0px;
   margin: 0;
   font-family: Arial, sans-serif;
   overflow: hidden;
@@ -47,6 +76,7 @@ body {
   width: 500px;
   padding: 10px;
   margin: 0px;
+  box-shadow: 0px 5px 5px 5px#c2bfbf7f;
 }
 
 .card-body {
