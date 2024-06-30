@@ -50,7 +50,6 @@ body {
   border-radius: 50%; */
 }
 
-
 .cp-img-main {
   width: 40px;
 }
@@ -180,6 +179,15 @@ body {
 }
 
 /* right section */
+
+.graph-placeholder {
+  height: 300px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Media Queries for responsiveness */
 @media (min-width: 768px) {
