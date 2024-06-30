@@ -50,6 +50,7 @@ body {
   border-radius: 50%; */
 }
 
+
 .cp-img-main {
   width: 40px;
 }
@@ -65,33 +66,53 @@ body {
 }
 
 .left-section {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 25px;
+  padding-left: 50px;
   overflow-y: scroll;
-  height: 800px;
+  height: 600px;
 }
 
 .right-section {
   overflow-y: auto;
 }
 
+.title-left {
+  font-family: "HKGroteskBold";
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
 .btn-tabs {
+  font-family: "HKGroteskMedium";
+  font-size: 18px;
   margin: 0px;
   padding: 0px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 50px;
   border: none;
   background-color: #ffffff;
   color: #c2bfbf;
 }
 
+.active-btn {
+  color: #000000;
+}
+
 .btn-group {
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .card {
   width: 500px;
   padding: 10px;
   margin: 0px;
-  box-shadow: 0px 5px 5px 5px#c2bfbf7f;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 5px#c2bfbf55;
 }
 
 .card-body {
@@ -157,6 +178,8 @@ body {
 .card-info a:hover {
   text-decoration: underline;
 }
+
+/* right section */
 
 /* Media Queries for responsiveness */
 @media (min-width: 768px) {
