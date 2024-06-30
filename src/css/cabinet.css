@@ -167,6 +167,10 @@ body {
 
 .card-link {
   margin-top: 15px;
+  color: #6e44ff;
+  text-decoration: none;
+  font-family: "HKGroteskMedium";
+  font-size: 16px;
 }
 
 .card-info a {
