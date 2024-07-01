@@ -73,6 +73,21 @@ body {
   height: 600px;
 }
 
+.left-section::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.left-section::-webkit-scrollbar {
+  width: 12px;
+  background-color: #ffffff;
+}
+
+.left-section::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cfcfcf;
+}
+
 .right-section {
   overflow-y: auto;
 }
