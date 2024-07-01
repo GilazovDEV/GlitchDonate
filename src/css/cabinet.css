@@ -215,6 +215,12 @@ body {
   justify-content: center;
 }
 
+.info-graphs {
+  padding: 0px;
+  margin: 0px;
+  margin: 10px 0px 0px 10px;
+}
+
 /* Media Queries for responsiveness */
 @media (min-width: 768px) {
   .main-content {
